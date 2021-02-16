@@ -1,0 +1,99 @@
+*{
+    margin:0;
+}
+/* element styling */
+
+body{
+    background-color: #283149;
+    color: #dbedf3;
+    margin: 1%;
+}
+
+a{
+    text-decoration: none;
+    color:whitesmoke
+}
+a:hover{
+    color:green;
+}
+footer{
+
+    text-align: center;
+    font-size: 1rem;
+}
+ul{
+    list-style-type: inherit;
+}
+ul li{
+    font-size: larger;
+    margin: 0.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* class styling */
+.main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    background-color: #404b69;
+    padding: 0.5%;
+    margin: 2% 1% 1% 1%;
+    font-size: x-large;
+    font-family:'Georgia', serif;
+    font-weight: lighter;
+    text-shadow: 2px 2px 8px black;
+}
+
+.main h1{
+    border: 2px solid white;
+    padding: 3px;
+}
+
+.quote{
+    margin: 3%;
+    text-align: center;
+    font-size:larger;
+    font-style: oblique;
+    font-family: ;
+}
+.sec_head{
+        background-color: #00818a;
+        color:azure;
+        margin: 1% 3% 2% 3%;
+        padding:1% 1% 1% 5%;
+        font-size: large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sec{
+    margin:0% 0 2% 10%;
+}
+
+.sec h2{
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 2%;
+}
+
+.contact{
+    display:flex;
+    justify-content: flex-start;
+    gap:3%;
+    font-size: 50px;
+}
+/* id styling */
+#profile{
+    display:inline;
+}
+
+#linkedin:hover{
+    color:#2867b2;
+}
+
+#git:hover{
+    color:black;
+}
+
+#tinder:hover{
+    color:rgb(255, 153, 0);
+}
